@@ -6,13 +6,38 @@
   <strong>Quantum Unified Architecture for Simulation And Runtime</strong>
 </p>
 
+---
+
+<h2 align="center">🎯 THE MISSION</h2>
+
 <p align="center">
-  <em>We don't know quantum computing yet. We're learning it by building it.</em>
+  <strong>Make quantum computing accessible to everyone.</strong>
 </p>
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>🔬 WHAT</strong></td>
+    <td>Build a complete quantum computing framework from scratch</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🎓 HOW</strong></td>
+    <td>Learn it ourselves and document everything along the way</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🌍 WHY</strong></td>
+    <td>So anyone curious can learn quantum computing - no PhD required</td>
+  </tr>
+</table>
+
+<p align="center">
+  <em>We're not waiting until we're experts. We're learning in public and building as we go.</em>
+</p>
+
+---
 
 <p align="center">
   <a href="#try-it-now">Try It Now</a> •
-  <a href="#what-is-this-really">What is This?</a> •
+  <a href="#the-journey">The Journey</a> •
   <a href="#the-interactive-course">Course</a> •
   <a href="#learn-with-us">Learn With Us</a>
 </p>
@@ -35,7 +60,7 @@ Click the link above to start learning. Works on any device.
 
 ---
 
-## What is This, Really?
+## The Journey
 
 **This is us learning quantum computing. In public. From scratch.**
 
