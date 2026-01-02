@@ -2759,11 +2759,11 @@
         }
 
         function saveProgress() {
-            localStorage.setItem('quasar-progress', JSON.stringify({ completedLessons, totalXP }));
+            localStorage.setItem('homaya-progress', JSON.stringify({ completedLessons, totalXP }));
         }
 
         function loadProgress() {
-            const saved = localStorage.getItem('quasar-progress');
+            const saved = localStorage.getItem('homaya-progress');
             if (saved) {
                 const data = JSON.parse(saved);
                 completedLessons = data.completedLessons || [];

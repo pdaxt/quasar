@@ -2,8 +2,8 @@
 //!
 //! Run with: cargo run --example sim_demo
 
-use quasar_core::Circuit;
-use quasar_sim::Simulator;
+use homaya_core::Circuit;
+use homaya_sim::Simulator;
 
 fn main() {
     println!("╔═══════════════════════════════════════════════════════════════╗");

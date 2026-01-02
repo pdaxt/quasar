@@ -3,10 +3,10 @@
 //! This demonstrates WHY the simulator is correct by checking
 //! mathematical properties that MUST hold for quantum mechanics.
 //!
-//! Run with: cargo run --example verify_correctness -p quasar-sim
+//! Run with: cargo run --example verify_correctness -p homaya-sim
 
-use quasar_core::Circuit;
-use quasar_sim::Simulator;
+use homaya_core::Circuit;
+use homaya_sim::Simulator;
 
 fn main() {
     println!("╔═══════════════════════════════════════════════════════════════╗");

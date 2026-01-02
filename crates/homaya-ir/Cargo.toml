@@ -1,0 +1,10 @@
+[package]
+name = "homaya-ir"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "HOMAYA homaya-ir"
+
+[dependencies]
+homaya-core = { path = "../homaya-core" }

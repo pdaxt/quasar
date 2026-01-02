@@ -1,24 +1,24 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/quasar-core",
-    "crates/quasar-ir",
-    "crates/quasar-sim",
-    "crates/quasar-compiler",
-    "crates/quasar-runtime",
-    "crates/quasar-backends",
-    "crates/quasar-algorithms",
-    "tools/quasar-cli",
+    "crates/homaya-core",
+    "crates/homaya-ir",
+    "crates/homaya-sim",
+    "crates/homaya-compiler",
+    "crates/homaya-runtime",
+    "crates/homaya-backends",
+    "crates/homaya-algorithms",
+    "tools/homaya-cli",
 ]
 
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
-authors = ["QUASAR Contributors"]
+authors = ["Pran <pran@dataxlr8.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/quasar-quantum/quasar"
-homepage = "https://quasar.quantum"
-description = "Ultra-fast quantum computing infrastructure"
+repository = "https://github.com/pdaxt/homaya"
+homepage = "https://github.com/pdaxt/homaya"
+description = "Quantum computing framework - some connections transcend distance"
 keywords = ["quantum", "computing", "simulation", "qubits"]
 categories = ["science", "simulation", "wasm"]
 

@@ -1,0 +1,15 @@
+[package]
+name = "homaya-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "HOMAYA command-line interface"
+
+[[bin]]
+name = "homaya"
+path = "src/main.rs"
+
+[dependencies]
+homaya-core = { path = "../../crates/homaya-core" }
+clap.workspace = true

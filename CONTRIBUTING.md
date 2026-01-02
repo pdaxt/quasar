@@ -1,4 +1,4 @@
-# Contributing to QUASAR
+# Contributing to HOMAYA
 
 **Welcome! We're learning quantum computing together.**
 
@@ -10,7 +10,7 @@ You don't need to be an expert. In fact, questions from beginners help us write 
 
 This is the **most valuable** contribution. If something doesn't make sense:
 
-1. Open an [Issue](https://github.com/pdaxt/quasar/issues/new)
+1. Open an [Issue](https://github.com/pdaxt/homaya/issues/new)
 2. Tell us what lesson/section confused you
 3. Tell us what you expected vs what you found
 
@@ -18,7 +18,7 @@ We'll either fix the explanation or realize we don't understand it ourselves (an
 
 ### 2. Try the Course and Give Feedback
 
-- [Take the Interactive Course](https://pdaxt.github.io/quasar/)
+- [Take the Interactive Course](https://pdaxt.github.io/homaya/)
 - What clicked? What didn't?
 - What analogy helped? What fell flat?
 
@@ -37,7 +37,7 @@ Found a better way to explain something?
 
 ### 4. Add to the Simulator
 
-Want to add features to `quasar-core` or `quasar-sim`?
+Want to add features to `homaya-core` or `homaya-sim`?
 
 1. Fork the repo
 2. Create a branch: `git checkout -b feature/your-feature`
@@ -50,14 +50,14 @@ Want to add features to `quasar-core` or `quasar-sim`?
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/quasar.git
-cd quasar
+git clone https://github.com/YOUR_USERNAME/homaya.git
+cd homaya
 
 # Run tests
 cargo test
 
 # Run the verification suite
-cargo run --example verify_correctness -p quasar-sim
+cargo run --example verify_correctness -p homaya-sim
 
 # Open the course locally
 open docs/learn/course.html

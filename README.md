@@ -1,14 +1,19 @@
 <p align="center">
-  <h1 align="center">🌀 QUASAR</h1>
+  <h1 align="center">HOMAYA</h1>
 </p>
 
 <p align="center">
-  <strong>Quantum Unified Architecture for Simulation And Runtime</strong>
+  <em>Some connections transcend distance.</em>
+</p>
+
+<p align="center">
+  A quantum computing framework built from scratch.<br>
+  Named for my wife. Like entangled qubits, some bonds don't need explanation.
 </p>
 
 ---
 
-<h2 align="center">🎯 THE MISSION</h2>
+<h2 align="center">THE MISSION</h2>
 
 <p align="center">
   <strong>Make quantum computing accessible to everyone.</strong>
@@ -16,15 +21,15 @@
 
 <table align="center">
   <tr>
-    <td align="center"><strong>🔬 WHAT</strong></td>
+    <td align="center"><strong>WHAT</strong></td>
     <td>Build a complete quantum computing framework from scratch</td>
   </tr>
   <tr>
-    <td align="center"><strong>🎓 HOW</strong></td>
+    <td align="center"><strong>HOW</strong></td>
     <td>Learn it ourselves and document everything along the way</td>
   </tr>
   <tr>
-    <td align="center"><strong>🌍 WHY</strong></td>
+    <td align="center"><strong>WHY</strong></td>
     <td>So anyone curious can learn quantum computing - no PhD required</td>
   </tr>
 </table>
@@ -45,16 +50,16 @@
 <p align="center">
   <img src="https://img.shields.io/badge/rust-1.75+-orange.svg" alt="Rust">
   <img src="https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg" alt="License">
-  <img src="https://img.shields.io/badge/status-🎓%20learning%20project-purple.svg" alt="Status">
+  <img src="https://img.shields.io/badge/status-learning%20project-purple.svg" alt="Status">
 </p>
 
 ---
 
-## 🚀 Try It Now
+## Try It Now
 
 **No installation needed! Start learning quantum computing in your browser:**
 
-### **[→ Launch Interactive Course](https://pdaxt.github.io/quasar/docs/learn/course.html)**
+### **[Launch Interactive Course](https://pdaxt.github.io/homaya/docs/learn/course.html)**
 
 Click the link above to start learning. Works on any device.
 
@@ -67,8 +72,8 @@ Click the link above to start learning. Works on any device.
 We're not quantum physicists. We're not academics. We're just curious people who wanted to understand how quantum computers actually work.
 
 Every resource we found was either:
-- 🎓 Written for physics PhDs (too hard)
-- 📺 Oversimplified YouTube videos (too shallow)
+- Written for physics PhDs (too hard)
+- Oversimplified YouTube videos (too shallow)
 
 So we decided: **let's build a quantum computer simulator ourselves and see if we actually understand it.**
 
@@ -88,11 +93,11 @@ If our simulator passes physics tests, that means we *actually* understand the m
 
 ---
 
-## 🎓 The Interactive Course
+## The Interactive Course
 
 As we learn, we write explanations. Not for experts - for ourselves. For people who have never touched quantum computing.
 
-**[→ Take the Course](https://pdaxt.github.io/quasar/docs/learn/course.html)**
+**[Take the Course](https://pdaxt.github.io/homaya/docs/learn/course.html)**
 
 ### What You'll Learn
 
@@ -109,16 +114,16 @@ As we learn, we write explanations. Not for experts - for ourselves. For people 
 
 ### No Prerequisites
 
-- ❌ No physics degree
-- ❌ No linear algebra
-- ❌ No quantum mechanics background
-- ✅ Just curiosity
+- No physics degree
+- No linear algebra
+- No quantum mechanics background
+- Just curiosity
 
 We explain everything like you're 10 years old. Because that's how we had to explain it to ourselves.
 
 ---
 
-## 💡 Our Learning Philosophy
+## Our Learning Philosophy
 
 ```
 1. Build it → Forces you to truly understand
@@ -131,34 +136,34 @@ We explain everything like you're 10 years old. Because that's how we had to exp
 
 | Component | What It Does | Did We Learn It? |
 |-----------|-------------|------------------|
-| **quasar-core** | Qubits, quantum gates, circuits | ✅ Yes! |
-| **quasar-sim** | Simulates quantum circuits | ✅ Yes! |
-| **Interactive Course** | Teaches what we learned | ✅ Writing as we go |
-| **Verification Tests** | Proves our math is right | ✅ All passing |
+| **homaya-core** | Qubits, quantum gates, circuits | Yes |
+| **homaya-sim** | Simulates quantum circuits | Yes |
+| **Interactive Course** | Teaches what we learned | Writing as we go |
+| **Verification Tests** | Proves our math is right | All passing |
 
 ---
 
-## 🔧 For Developers
+## For Developers
 
 Want to run the simulator locally?
 
 ```bash
 # Clone and enter
-git clone https://github.com/pdaxt/quasar.git
-cd quasar
+git clone https://github.com/pdaxt/homaya.git
+cd homaya
 
 # Run a demo
-cargo run --example sim_demo -p quasar-sim
+cargo run --example sim_demo -p homaya-sim
 
 # Prove it's mathematically correct
-cargo run --example verify_correctness -p quasar-sim
+cargo run --example verify_correctness -p homaya-sim
 ```
 
 ### Build Your First Quantum Circuit
 
 ```rust
-use quasar_core::Circuit;
-use quasar_sim::Simulator;
+use homaya_core::Circuit;
+use homaya_sim::Simulator;
 
 // Create entangled qubits (Bell state)
 let circuit = Circuit::new(2)
@@ -177,7 +182,7 @@ println!("{:?}", counts);
 
 ---
 
-## 🤝 Learn With Us
+## Learn With Us
 
 **You don't need to be an expert to contribute. We're not experts either!**
 
@@ -200,9 +205,9 @@ Open an issue. We'll either:
 
 ---
 
-## 📊 Project Status
+## Project Status
 
-### What Works ✅
+### What Works
 
 - Full state vector quantum simulation
 - All standard gates: X, Y, Z, H, S, T, Rx, Ry, Rz, CNOT, CZ, SWAP, Toffoli
@@ -210,7 +215,7 @@ Open an issue. We'll either:
 - Interactive browser-based course
 - 8 physics verification tests (all passing)
 
-### What We're Learning Next 🚧
+### What We're Learning Next
 
 - [ ] Python bindings (so more people can use it)
 - [ ] Browser/WASM support (run simulations in the course!)
@@ -219,13 +224,13 @@ Open an issue. We'll either:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-quasar/
+homaya/
 ├── crates/
-│   ├── quasar-core/      # The fundamentals (we learned this first)
-│   ├── quasar-sim/       # The simulator (we learned this second)
+│   ├── homaya-core/      # The fundamentals (we learned this first)
+│   ├── homaya-sim/       # The simulator (we learned this second)
 │   └── ...               # More to come as we learn
 ├── docs/
 │   └── learn/            # Interactive course (our notes, but prettier)
@@ -235,23 +240,25 @@ quasar/
 
 ---
 
-## 👤 About
+## About
 
 Built by **Pran** - learning quantum computing one qubit at a time.
 
+Named for **Homaya** - because like entangled qubits, some connections transcend distance.
+
 - [LinkedIn](https://www.linkedin.com/in/pran-dataxlr8) - Let's connect!
-- [Substack](https://bsbskiller.com) - Follow the learning journey
+- [Substack](https://bskiller.com) - Follow the learning journey
 
 ---
 
-## 📜 License
+## License
 
 MIT / Apache 2.0 - Use it however you want.
 
 ---
 
 <p align="center">
-  <strong>🎓 Learning in public. Building in the open.</strong>
+  <strong>Learning in public. Building in the open.</strong>
 </p>
 
 <p align="center">
@@ -259,7 +266,7 @@ MIT / Apache 2.0 - Use it however you want.
 </p>
 
 <p align="center">
-  <a href="https://pdaxt.github.io/quasar/docs/learn/course.html">
-    <strong>→ Start Learning Now ←</strong>
+  <a href="https://pdaxt.github.io/homaya/docs/learn/course.html">
+    <strong>Start Learning Now</strong>
   </a>
 </p>

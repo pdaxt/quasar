@@ -1,0 +1,10 @@
+[package]
+name = "homaya-compiler"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "HOMAYA homaya-compiler"
+
+[dependencies]
+homaya-core = { path = "../homaya-core" }

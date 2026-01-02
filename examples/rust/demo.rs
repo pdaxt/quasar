@@ -2,7 +2,7 @@
 //!
 //! Run with: cargo run --example demo
 
-use quasar_core::{Circuit, Gate, GateType};
+use homaya_core::{Circuit, Gate, GateType};
 
 fn main() {
     println!("╔═══════════════════════════════════════════════════════════════╗");

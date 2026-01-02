@@ -1,1 +1,0 @@
-// quasar-ir placeholder
