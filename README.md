@@ -7,232 +7,234 @@
 </p>
 
 <p align="center">
-  <em>Learning quantum computing by building it from scratch</em>
+  <em>We don't know quantum computing yet. We're learning it by building it.</em>
 </p>
 
 <p align="center">
-  <a href="#what-is-this">What is This?</a> •
-  <a href="#learn-with-us">Learn With Us</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#project-status">Status</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#try-it-now">Try It Now</a> •
+  <a href="#what-is-this-really">What is This?</a> •
+  <a href="#the-interactive-course">Course</a> •
+  <a href="#learn-with-us">Learn With Us</a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/rust-1.75+-orange.svg" alt="Rust">
   <img src="https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg" alt="License">
-  <img src="https://img.shields.io/badge/status-learning%20project-purple.svg" alt="Status">
+  <img src="https://img.shields.io/badge/status-🎓%20learning%20project-purple.svg" alt="Status">
 </p>
 
 ---
 
-## What is This?
+## 🚀 Try It Now
 
-**We're learning quantum computing by building a quantum computing framework from scratch.**
+**No installation needed! Start learning quantum computing in your browser:**
 
-This isn't a polished production library (yet). It's a learning journey, documented in code. We believe the best way to truly understand something is to build it yourself.
+### **[→ Launch Interactive Course](https://pdaxt.github.io/quasar/docs/learn/course.html)**
 
-### Our Philosophy
-
-```
-🎯 Learn by building, not just reading
-📖 Document everything we discover
-🤝 Make it accessible to complete beginners
-🔬 Verify our understanding with real tests
-```
-
-### What We're Building
-
-| Component | Purpose | Status |
-|-----------|---------|--------|
-| **quasar-core** | Qubits, gates, circuits - the fundamentals | ✅ Working |
-| **quasar-sim** | Simulate quantum circuits on your computer | ✅ Working |
-| **Interactive Course** | Learn quantum computing step-by-step | ✅ Available |
-| **Verification Tests** | Prove our simulator follows real physics | ✅ Passing |
+Click the link above to start learning. Works on any device.
 
 ---
 
-## 🎓 Learn With Us
+## What is This, Really?
 
-### Interactive Course
+**This is us learning quantum computing. In public. From scratch.**
 
-We built an interactive course that explains quantum computing like you're 10 years old:
+We're not quantum physicists. We're not academics. We're just curious people who wanted to understand how quantum computers actually work.
 
-**[→ Open the Interactive Course](docs/learn/course.html)**
+Every resource we found was either:
+- 🎓 Written for physics PhDs (too hard)
+- 📺 Oversimplified YouTube videos (too shallow)
 
-The course covers:
-- 💡 **Light switches & bits** - What computers actually do
-- 🪙 **The spinning coin** - What makes quantum different
-- ⚖️ **Weighted coins** - Controlling probabilities
-- 🔘 **The H button** - The most important quantum operation
-- 🔧 **Building circuits** - Putting it all together
-- 🔗 **Two qubits** - Double the quantum power!
-- ⚡ **CNOT gate** - Making qubits work together
-- 🔮 **Entanglement** - The spookiest thing in physics!
+So we decided: **let's build a quantum computer simulator ourselves and see if we actually understand it.**
 
-No math prerequisites. No physics degree needed. Just curiosity!
+### The Crazy Part
 
-### Why We Made This
+If our simulator passes physics tests, that means we *actually* understand the math. We can't fake it. The computer will tell us if we're wrong.
 
-We were frustrated. Every quantum computing resource either:
-- Assumed you had a physics PhD, or
-- Was so oversimplified it didn't actually teach anything
+```
+✓ Probability Conservation - All probabilities sum to 1
+✓ H² = I - Hadamard is self-inverse
+✓ Bell State - Perfect entanglement correlation
+✓ CNOT Truth Table - Controlled operations work
+... and 4 more physics tests
+```
 
-We wanted something in between. So we built it.
+**It passes. We're learning.**
 
 ---
 
-## Quick Start
+## 🎓 The Interactive Course
 
-### Run the Simulator
+As we learn, we write explanations. Not for experts - for ourselves. For people who have never touched quantum computing.
+
+**[→ Take the Course](https://pdaxt.github.io/quasar/docs/learn/course.html)**
+
+### What You'll Learn
+
+| Lesson | What You'll Understand |
+|--------|----------------------|
+| **Light Switches** | How regular computers work (bits = on/off switches) |
+| **The Spinning Coin** | What makes quantum different (qubits can be BOTH) |
+| **Weighted Coins** | How we control quantum probabilities |
+| **The H Button** | The most important quantum operation (Hadamard) |
+| **Building Circuits** | Chaining operations together |
+| **Two Qubits** | Exponential power (2 qubits = 4 states at once!) |
+| **CNOT Gate** | Making qubits work together |
+| **Entanglement** | The "spooky" thing Einstein hated |
+
+### No Prerequisites
+
+- ❌ No physics degree
+- ❌ No linear algebra
+- ❌ No quantum mechanics background
+- ✅ Just curiosity
+
+We explain everything like you're 10 years old. Because that's how we had to explain it to ourselves.
+
+---
+
+## 💡 Our Learning Philosophy
+
+```
+1. Build it → Forces you to truly understand
+2. Test it → Can't fake understanding to a computer
+3. Explain it simply → If you can't explain it simply, you don't understand it
+4. Share it → Others help you find gaps in your knowledge
+```
+
+### What We've Built So Far
+
+| Component | What It Does | Did We Learn It? |
+|-----------|-------------|------------------|
+| **quasar-core** | Qubits, quantum gates, circuits | ✅ Yes! |
+| **quasar-sim** | Simulates quantum circuits | ✅ Yes! |
+| **Interactive Course** | Teaches what we learned | ✅ Writing as we go |
+| **Verification Tests** | Proves our math is right | ✅ All passing |
+
+---
+
+## 🔧 For Developers
+
+Want to run the simulator locally?
 
 ```bash
-# Clone the repo
-git clone https://github.com/anthropics/quasar.git
+# Clone and enter
+git clone https://github.com/pdaxt/quasar.git
 cd quasar
 
-# Run the demo
+# Run a demo
 cargo run --example sim_demo -p quasar-sim
 
-# Verify correctness (proves it follows quantum mechanics!)
+# Prove it's mathematically correct
 cargo run --example verify_correctness -p quasar-sim
 ```
 
-### Build Your First Circuit
+### Build Your First Quantum Circuit
 
 ```rust
 use quasar_core::Circuit;
 use quasar_sim::Simulator;
 
-// Create a "Bell state" - two qubits that are connected
+// Create entangled qubits (Bell state)
 let circuit = Circuit::new(2)
-    .h(0)        // Make qubit 0 "spin" (superposition)
-    .cx(0, 1)    // Connect qubit 1 to qubit 0
+    .h(0)        // Put qubit 0 in superposition
+    .cx(0, 1)    // Entangle qubit 1 with qubit 0
     .measure_all();
 
-// Simulate it!
+// Simulate it
 let mut sim = Simulator::new();
 let counts = sim.sample(&circuit, 1000).unwrap();
 
-// You'll get roughly 50% "00" and 50% "11"
+// You'll get ~50% "00" and ~50% "11"
 // Never "01" or "10" - they're entangled!
 println!("{:?}", counts);
 ```
 
-### Open the Course
+---
 
-```bash
-# Just open this file in your browser:
-open docs/learn/course.html
-```
+## 🤝 Learn With Us
+
+**You don't need to be an expert to contribute. We're not experts either!**
+
+### Ways to Help
+
+| If you're... | You can... |
+|-------------|-----------|
+| **A beginner** | Tell us what's confusing - seriously, this helps us write better explanations |
+| **Learning too** | Try the course and let us know what clicks (or doesn't) |
+| **A developer** | Add features to the simulator |
+| **Quantum-curious** | Share it with others who might want to learn |
+
+### Ask Questions!
+
+If something doesn't make sense, that's a bug in our explanation, not a bug in you.
+
+Open an issue. We'll either:
+1. Improve the explanation, or
+2. Realize we don't understand it either (and learn together!)
 
 ---
 
-## Project Status
+## 📊 Project Status
 
 ### What Works ✅
 
-- **Core primitives**: Qubits, complex numbers, all standard gates
-- **Simulator**: Full state vector simulation with measurement
-- **Gates**: X, Y, Z, H, S, T, Rx, Ry, Rz, CNOT, CZ, SWAP, Toffoli
-- **Verification**: 8 mathematical tests proving correctness
-- **Interactive course**: Beginner-friendly explanations
+- Full state vector quantum simulation
+- All standard gates: X, Y, Z, H, S, T, Rx, Ry, Rz, CNOT, CZ, SWAP, Toffoli
+- Measurement and sampling
+- Interactive browser-based course
+- 8 physics verification tests (all passing)
 
-### What We're Building 🚧
+### What We're Learning Next 🚧
 
-- [x] Two-qubit lesson (just added!)
-- [x] CNOT gate lesson (just added!)
-- [x] Entanglement lesson (just added!)
-- [ ] Python bindings
-- [ ] Browser/WASM support
-- [ ] GPU acceleration
-
-### What We Verified
-
-Our simulator passes these physics tests:
-
-| Test | What It Proves |
-|------|---------------|
-| Probability Conservation | All probabilities sum to 1 (Born rule) |
-| H² = I | Hadamard is self-inverse |
-| X² = I | Pauli-X is self-inverse |
-| Rx(2π) = I | Full rotation returns to start |
-| Bell State | Creates perfect |00⟩ + |11⟩ entanglement |
-| CNOT Truth Table | Controlled-NOT works correctly |
-| Statistical Sampling | Measurements follow expected probabilities |
-| Hadamard Superposition | Creates exact 50/50 distribution |
+- [ ] Python bindings (so more people can use it)
+- [ ] Browser/WASM support (run simulations in the course!)
+- [ ] More course lessons (quantum algorithms!)
+- [ ] GPU acceleration (for bigger simulations)
 
 ---
 
-## Architecture
+## 📁 Project Structure
 
 ```
 quasar/
 ├── crates/
-│   ├── quasar-core/      # Qubits, gates, circuits
-│   ├── quasar-sim/       # State vector simulator
-│   ├── quasar-ir/        # Intermediate representation (planned)
-│   ├── quasar-compiler/  # Optimization (planned)
-│   ├── quasar-runtime/   # Execution (planned)
-│   ├── quasar-backends/  # Hardware backends (planned)
-│   └── quasar-algorithms/# Standard algorithms (planned)
+│   ├── quasar-core/      # The fundamentals (we learned this first)
+│   ├── quasar-sim/       # The simulator (we learned this second)
+│   └── ...               # More to come as we learn
 ├── docs/
-│   └── learn/            # Interactive course
-├── examples/
-│   └── rust/             # Example programs
-└── tools/
-    └── quasar-cli/       # Command line tool (planned)
+│   └── learn/            # Interactive course (our notes, but prettier)
+└── examples/
+    └── rust/             # Working examples (proof we understand it)
 ```
 
 ---
 
-## Contributing
+## 👤 About
 
-**We'd love to learn with you!**
+Built by **Pran** - learning quantum computing one qubit at a time.
 
-This project is explicitly for learning. You don't need to be an expert. In fact, questions from beginners help us write better explanations.
-
-### Ways to Contribute
-
-1. **Try the course** and tell us what's confusing
-2. **Ask questions** - if you're confused, others are too
-3. **Fix explanations** that don't make sense
-4. **Add more examples** to the course
-5. **Improve the simulator** with new features
-
-### Running Tests
-
-```bash
-# Run all tests
-cargo test
-
-# Run the verification suite
-cargo run --example verify_correctness -p quasar-sim
-```
+- [LinkedIn](https://www.linkedin.com/in/pran-dataxlr8) - Let's connect!
+- [Substack](https://bsbskiller.com) - Follow the learning journey
 
 ---
 
-## Resources We Used
-
-Learning quantum computing is hard. Here are resources that helped us:
-
-- [Quantum Computing: An Applied Approach](https://link.springer.com/book/10.1007/978-3-030-23922-0) - Jack Hidary
-- [Qiskit Textbook](https://qiskit.org/textbook/) - IBM
-- [Quantum Country](https://quantum.country/) - Andy Matuschak & Michael Nielsen
-- [3Blue1Brown](https://www.youtube.com/c/3blue1brown) - Visual math intuition
-
----
-
-## License
+## 📜 License
 
 MIT / Apache 2.0 - Use it however you want.
 
 ---
 
 <p align="center">
-  <strong>Learning in public. Building in the open.</strong>
+  <strong>🎓 Learning in public. Building in the open.</strong>
 </p>
 
 <p align="center">
-  <em>If you're confused, that's okay. So were we. That's why we built this.</em>
+  <em>We started confused. We're getting less confused. Join us.</em>
+</p>
+
+<p align="center">
+  <a href="https://pdaxt.github.io/quasar/docs/learn/course.html">
+    <strong>→ Start Learning Now ←</strong>
+  </a>
 </p>
