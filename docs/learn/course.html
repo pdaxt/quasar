@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUASAR Academy - Master Quantum Computing</title>
+    <title>HOMAYA - Learn Quantum Computing</title>
     <style>
         :root {
             --bg: #0a0a0f;
@@ -58,18 +58,30 @@
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent), var(--purple));
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            background: linear-gradient(135deg, #ff6b9d, #c44cff, #00d4ff);
+            background-size: 200% 200%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
+            animation: gradient-shift 3s ease infinite;
+            margin-bottom: 0.25rem;
+            text-shadow: 0 0 30px rgba(196, 76, 255, 0.3);
+        }
+
+        @keyframes gradient-shift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
 
         .logo-sub {
-            font-size: 0.8rem;
-            color: var(--text-dim);
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            letter-spacing: 0.05em;
             margin-bottom: 2rem;
+            opacity: 0.8;
         }
 
         .progress-section {
@@ -1284,8 +1296,8 @@
 
         <!-- Sidebar -->
         <aside class="sidebar">
-            <div class="logo">QUASAR Academy</div>
-            <div class="logo-sub">Master Quantum Computing</div>
+            <div class="logo">HOMAYA</div>
+            <div class="logo-sub">Some connections transcend distance</div>
 
             <div class="progress-section">
                 <div class="progress-label">

@@ -214,6 +214,70 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 
 [[package]]
+name = "homaya-algorithms"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-backends"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-compiler"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-core"
+version = "0.1.0"
+dependencies = [
+ "num-complex",
+ "num-traits",
+ "proptest",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
+name = "homaya-ir"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-runtime"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+]
+
+[[package]]
+name = "homaya-sim"
+version = "0.1.0"
+dependencies = [
+ "homaya-core",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+]
+
+[[package]]
 name = "is_terminal_polyfill"
 version = "1.70.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -297,70 +361,6 @@ dependencies = [
  "rusty-fork",
  "tempfile",
  "unarray",
-]
-
-[[package]]
-name = "quasar-algorithms"
-version = "0.1.0"
-dependencies = [
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-backends"
-version = "0.1.0"
-dependencies = [
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-compiler"
-version = "0.1.0"
-dependencies = [
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-core"
-version = "0.1.0"
-dependencies = [
- "num-complex",
- "num-traits",
- "proptest",
- "serde",
- "thiserror",
-]
-
-[[package]]
-name = "quasar-ir"
-version = "0.1.0"
-dependencies = [
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-runtime"
-version = "0.1.0"
-dependencies = [
- "quasar-core",
-]
-
-[[package]]
-name = "quasar-sim"
-version = "0.1.0"
-dependencies = [
- "proptest",
- "quasar-core",
- "rand 0.8.5",
- "rayon",
 ]
 
 [[package]]
