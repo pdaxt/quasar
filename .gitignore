@@ -15,3 +15,10 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Private strategy docs (DO NOT COMMIT)
+STRATEGY.md
+VIRAL_STRATEGY.md
+LAUNCH_NOW.md
+*.private.md
+/private/
