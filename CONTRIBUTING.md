@@ -75,4 +75,11 @@ Open an issue! We're friendly. We're learning too.
 
 ---
 
+## Learn More
+
+- **[bskiller.com](https://bskiller.com)** - Deep dives into quantum computing and experiments
+- **[dataxlr8.ai](https://dataxlr8.ai)** - Enterprise AI and quantum solutions
+
+---
+
 **Remember: If you're confused, that's a bug in our explanation, not a bug in you.**

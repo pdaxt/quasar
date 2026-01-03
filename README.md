@@ -59,9 +59,11 @@
 
 **No installation needed! Start learning quantum computing in your browser:**
 
-### **[Launch Interactive Course](https://pdaxt.github.io/homaya/docs/learn/course.html)**
+### **[Launch Interactive Course](https://pdaxt.github.io/homaya/learn/course.html)**
 
 Click the link above to start learning. Works on any device.
+
+> **Want to go deeper?** Follow the full learning journey at **[bskiller.com](https://bskiller.com)** - behind-the-scenes of building this framework, what's working, what's failing, and lessons learned.
 
 ---
 
@@ -97,7 +99,7 @@ If our simulator passes physics tests, that means we *actually* understand the m
 
 As we learn, we write explanations. Not for experts - for ourselves. For people who have never touched quantum computing.
 
-**[Take the Course](https://pdaxt.github.io/homaya/docs/learn/course.html)**
+**[Take the Course](https://pdaxt.github.io/homaya/learn/course.html)**
 
 ### What You'll Learn
 
@@ -136,8 +138,10 @@ We explain everything like you're 10 years old. Because that's how we had to exp
 
 | Component | What It Does | Did We Learn It? |
 |-----------|-------------|------------------|
+| **homaya-types** | Core types and traits | Yes |
 | **homaya-core** | Qubits, quantum gates, circuits | Yes |
 | **homaya-sim** | Simulates quantum circuits | Yes |
+| **homaya-algorithms** | Grover, Deutsch-Jozsa, Bernstein-Vazirani | Yes |
 | **Interactive Course** | Teaches what we learned | Writing as we go |
 | **Verification Tests** | Proves our math is right | All passing |
 
@@ -246,8 +250,21 @@ Built by **Pran** - learning quantum computing one qubit at a time.
 
 Named for **Homaya** - because like entangled qubits, some connections transcend distance.
 
-- [LinkedIn](https://www.linkedin.com/in/pran-dataxlr8) - Let's connect!
-- [Substack](https://bskiller.com) - Follow the learning journey
+### Connect & Learn More
+
+| Platform | What You'll Find |
+|----------|-----------------|
+| **[bskiller.com](https://bskiller.com)** | Deep dives, experiments, behind-the-scenes |
+| **[dataxlr8.ai](https://dataxlr8.ai)** | Enterprise AI & quantum solutions |
+| **[LinkedIn](https://www.linkedin.com/in/pran-dataxlr8)** | Let's connect! |
+
+---
+
+## Enterprise
+
+Building production quantum applications? Need consulting, custom development, or enterprise support?
+
+**[dataxlr8.ai](https://dataxlr8.ai)** - We help companies navigate the quantum future.
 
 ---
 
@@ -266,7 +283,12 @@ MIT / Apache 2.0 - Use it however you want.
 </p>
 
 <p align="center">
-  <a href="https://pdaxt.github.io/homaya/docs/learn/course.html">
+  <a href="https://pdaxt.github.io/homaya/learn/course.html">
     <strong>Start Learning Now</strong>
   </a>
+</p>
+
+<p align="center">
+  <a href="https://bskiller.com">bskiller.com</a> •
+  <a href="https://dataxlr8.ai">dataxlr8.ai</a>
 </p>

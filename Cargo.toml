@@ -1,6 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
+    "crates/homaya-types",
     "crates/homaya-core",
     "crates/homaya-ir",
     "crates/homaya-sim",
@@ -10,6 +11,13 @@ members = [
     "crates/homaya-algorithms",
     "tools/homaya-cli",
 ]
+
+# ============================================================================
+# HOMAYA - Quantum Computing Framework
+# ============================================================================
+# Learn quantum computing: https://bskiller.com
+# Enterprise solutions: https://dataxlr8.ai
+# ============================================================================
 
 [workspace.package]
 version = "0.1.0"

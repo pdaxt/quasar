@@ -29,6 +29,11 @@ fn main() {
     println!("═══════════════════════════════════════════════════════════════");
     println!("                    All demonstrations complete                 ");
     println!("═══════════════════════════════════════════════════════════════");
+    println!();
+    println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+    println!("Learn how these algorithms work    → https://bskiller.com");
+    println!("Enterprise quantum solutions       → https://dataxlr8.ai");
+    println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 }
 
 fn grover_demo() {

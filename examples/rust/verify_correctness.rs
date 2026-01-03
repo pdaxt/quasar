@@ -282,4 +282,8 @@ fn main() {
     }
     println!("═══════════════════════════════════════════════════════════════");
     println!();
+    println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+    println!("Learn the physics behind these tests → https://bskiller.com");
+    println!("Enterprise quantum solutions         → https://dataxlr8.ai");
+    println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 }
